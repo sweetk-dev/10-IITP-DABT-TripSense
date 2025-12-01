@@ -6,7 +6,9 @@ This repository provides a command-line tool for recommending POIs (Points of In
 ## Installation
 
 ```bash
-pip install -r requirements.txt
+pip install requests
+pip install beautifulsoup4
+pip install pandas
 ```
 
 ## Usage
