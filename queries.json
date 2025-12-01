@@ -1,0 +1,7 @@
+[
+  { "query_id": "Q1",  "place": "ms",   "disabilities": ["지체장애"] },
+  { "query_id": "Q2",  "place": "acm",  "disabilities": ["지체장애"] },
+  { "query_id": "Q3", "place": "food", "disabilities": ["지체장애"] },
+  { "query_id": "Q4",  "place": "ms",   "disabilities": ["지체장애", "시각장애"] },
+  { "query_id": "Q5",  "place": "acm",  "disabilities": ["지체장애", "시각장애"] }
+]
