@@ -11,6 +11,18 @@ pip install -r requirements.txt
 
 ## Usage
 
+### Example `queries.json`
+```json
+[
+  { "query_id": "Q1",  "place": "ms",   "disabilities": ["지체장애"] },
+  { "query_id": "Q2",  "place": "acm",  "disabilities": ["지체장애"] },
+  { "query_id": "Q3", "place": "food", "disabilities": ["지체장애"] },
+  { "query_id": "Q4",  "place": "ms",   "disabilities": ["지체장애", "시각장애"] },
+  { "query_id": "Q5",  "place": "acm",  "disabilities": ["지체장애", "시각장애"] }
+]
+```
+
+
 ### Basic Command
 ```bash
 python recommend_poi.py --queries-json queries.json --topk 10 --match-mode all
@@ -26,14 +38,7 @@ python recommend_poi.py --queries-json queries.json --topk 10 --match-mode all
 
 ---
 
-## Example `queries.json`
-
-```json
-[
-  { "query_id": "Q1",  "place": "ms",   "disabilities": ["지체장애"] },
-  { "query_id": "Q2",  "place": "acm",  "disabilities": ["지체장애"] },
-  { "query_id": "Q3", "place": "food", "disabilities": ["지체장애"] },
-  { "query_id": "Q4",  "place": "ms",   "disabilities": ["지체장애", "시각장애"] },
-  { "query_id": "Q5",  "place": "acm",  "disabilities": ["지체장애", "시각장애"] }
-]
+### DEMO (Streamlit)
+```bash
+streamlit run app.py
 ```
